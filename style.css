@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #181818;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+}
+
+main {
+  margin: 10%;
+}
+
+header {
+  background-color: #111111;
+  width: 100vw;
+  height: 15vh;
+  padding: 0 4%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header img {
+  width: 12vw;
+  height: 10vh;
+}
+header ul {
+  display: flex;
+  list-style: none;
+}
+header button {
+  margin: 10px;
+  padding: 8px 25px;
+  border-radius: 8px;
+}
+header .botao1 {
+  background-color: #DF0712;
+  color: #ffffff;
+  font-weight: bold;
+}
+header .botao2 {
+  background-color: #181818;
+  color: #ffffff;
+  border: solid 1px;
+  font-weight: bold;
+}
+
+.titulo {
+  display: flex;
+  justify-content: space-between;
+}
+.titulo h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.titulo h2 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.titulo img {
+  height: 15vh;
+}
+
+.episodios {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.episodios div {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 25vw;
+  padding: 40px;
+}
+.episodios p {
+  font-size: x-small;
+}
+
+footer {
+  display: flex;
+  background-color: #111111;
+  width: 100vw;
+  height: 10vh;
+  font-weight: bold;
+  align-items: center;
+}
+footer h3 {
+  display: flex;
+  padding-left: 3%;
+}/*# sourceMappingURL=style.css.map */
